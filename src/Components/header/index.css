@@ -1,0 +1,28 @@
+.header{
+    height: 10vh;
+    background-color: rgb(0 0 0);
+    color: #878585;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+}
+
+.username{
+    color: aliceblue;
+    font-size:18px;
+}
+
+.smalltext{
+    font-size: 14px !important;
+    margin-top: 14px;
+    cursor: pointer;
+    text-align: right;
+}
+
+.logout{
+    cursor: pointer;
+}

@@ -1,0 +1,145 @@
+.board{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 90vh;
+    overflow-x: scroll;
+    padding-top: 30px;
+}
+
+.listWrapper{
+    display: flex;
+    justify-content: center;
+    height: 75%;
+}
+
+.filterView{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.filterType{
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 6px 8px;
+    transition: background 0.2s;
+    border-radius: 8px;
+}
+
+.filterType.selected{
+    font-weight: bold;
+    background: #464545;
+    color: #fff;
+}
+
+.addTaskButton{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: #000;
+    color: #fff;
+    font-size: 34px;
+    border: none;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.addTaskButton.active{
+    transform: rotate(135deg);
+}
+
+.addTaskButton:active{
+    background-color: #3d3d3d;
+    transform: scale(0.96)
+}
+
+.createView{
+    position: absolute;
+    background: #fff;
+    padding: 24px;
+    border-radius: 8px;
+    bottom: 120px;
+    right: 30px;
+    box-shadow: rgb(17 17 26 / 5%) 0px 1px 0px, rgb(17 17 26 / 10%) 0px 0px 8px;
+    transition: all 0.3s;
+    overflow: hidden;
+}
+
+.createView .inputRow{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.inputRow input{
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+    font-size: 16px;
+    padding: 4px;
+    width: 160px;
+}
+
+.inputRow label{
+    align-self: flex-end;
+}
+
+
+
+.selectRow select{
+    cursor: pointer;
+    width: 168px;
+    border: none;
+    border-bottom: 1px solid;
+    font-size: 16px;
+    padding: 6px;
+    outline: none;
+}
+
+.createView .buttonRow{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-top: 30px;
+}
+
+.buttonRow button{
+    background: rgb(31 57 151);
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.buttonRow button:active{
+    transform: scale(0.96)
+}
+.buttonRow button:hover{
+    background-color:rgb(30 51 127);
+}
+
+.expand{
+    height: 230px;
+    padding: 24px;
+}
+.collapse{
+    height: 0;
+    padding: 0;
+}
+
+.error{
+    font-size: 14px;
+    color: red;
+    height: 15px;
+}

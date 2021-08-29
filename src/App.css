@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+  background-color:rgb(210 211 213);
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+
+
+.fadeIn{
+  flex: 1;
+  padding: 12px;
+  transition: all 0.3s;
+}
+
+.fadeOut{
+  flex: none;
+  width: 0;
+  overflow: hidden;
+  padding: 0;
+  transition: all 0.3s;
+}
+
+
+

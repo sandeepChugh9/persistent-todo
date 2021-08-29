@@ -1,0 +1,62 @@
+{
+  "name": "persistent-todo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A persistent todo app created with react , redux , nodejs , mongodb , JWT basic authentication. It persists the state of the app in mongodb",
+  "author": {
+    "name": "Sandeep Chugh",
+    "email": "sandeepchugh.tu@gmail.com"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.5",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-beautiful-dnd": "^13.1.0",
+    "react-dom": "^17.0.2",
+    "react-loader-spinner": "^4.0.0",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.1",
+    "react-scripts": "4.0.3",
+    "redux": "^4.1.1",
+    "redux-thunk": "^2.3.0",
+    "uuid": "^8.3.2",
+    "web-vitals": "^1.0.1"
+  },
+  "proxy": "http://localhost:5000/",
+  "scripts": {
+    "start": "concurrently \"nodemon --inspect server/index.js\" \"react-scripts start\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.1",
+    "nodemon": "^2.0.12"
+  }
+}

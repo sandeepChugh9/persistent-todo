@@ -1,0 +1,78 @@
+.tasklist{
+    background-color: #efefef;
+    border-radius: 8px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+}
+
+.scrollableList{
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.task{
+    border-radius: 8px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-bottom: 15px;
+    box-shadow: rgb(17 17 26 / 5%) 0px 1px 0px, rgb(17 17 26 / 10%) 0px 0px 8px;
+}
+
+.taskTitle{
+    font-weight: bold;
+    line-height: 20px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border-bottom: 1px solid rgb(238, 238, 238);
+    padding-bottom: 6px;
+    color: rgb(0, 0, 0);
+    word-break: break-word;
+    text-align: left;
+}
+
+.taskBody{
+    font-size: 12px;
+    color: rgb(77, 77, 77);
+    text-align: left;
+    word-break: break-word;
+}
+
+.taskListheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.listName,.countTasks{
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.deleteIcon{
+    height: 14px;
+    width: 14px;
+    display: block;
+    margin-left: auto;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.noTaskView{
+    margin-top: 40px;
+    padding: 40px;
+    line-height: 30px;
+}
+
+.taskCredit{
+   margin-top: 5px;
+   text-align:left;
+   font-size: 12px;
+}

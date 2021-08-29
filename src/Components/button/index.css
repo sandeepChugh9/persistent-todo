@@ -1,0 +1,21 @@
+.custom-button{
+  background: rgb(31 57 151);
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  align-self: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.custom-button:active{
+  transform: scale(0.98);
+}
+
+.custom-button:hover{
+  background-color:rgb(30 51 127);
+}
