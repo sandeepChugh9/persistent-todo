@@ -4,19 +4,19 @@
     justify-content: flex-start;
     height: 90vh;
     overflow-x: scroll;
-    padding-top: 30px;
 }
 
 .listWrapper{
     display: flex;
     justify-content: center;
-    height: 75%;
+    height: 85%;
 }
 
 .filterView{
     display: flex;
     justify-content: flex-end;
     margin-bottom: 20px;
+    padding-top: 30px;
 }
 
 .filterType{

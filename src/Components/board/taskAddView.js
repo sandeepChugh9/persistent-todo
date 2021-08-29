@@ -32,7 +32,7 @@ export default function TaskAddView({ onCancel, isVisible }){
    
     const onSubmit = () =>{  
       const { taskTitle , taskBody, assignedTo } = taskData;
-      if(taskTitle.length === 0 || taskBody.length === 0 || assignedTo.length === ''){
+      if(taskTitle.length === 0 || taskBody.length === 0 || assignedTo.length === 0){
         setError('Please enter all the fields');
         return;
       }else{

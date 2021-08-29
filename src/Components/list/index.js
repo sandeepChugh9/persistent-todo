@@ -18,7 +18,7 @@ function List(props) {
   });
 
   return (
-    <Droppable droppableId={`${props.type}`}>
+    <Droppable droppableId={`${props.type}`} isDropDisabled={!isListVisible}>
        {(provided, snapshot) => (
         <div className={`tasklist ${isListVisible ? 'fadeIn':'fadeOut'}`}  
             ref={provided.innerRef} 
