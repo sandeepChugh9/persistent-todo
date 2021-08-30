@@ -7,15 +7,3 @@ module.exports = {
         DB:'task-manager'
     }
 }
-
-
-
-//mongodb+srv://sandeep:<password>@cluster0.j452h.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
-
-
-//mongodb+srv://sandeep:CHUGH@cluster0.j452h.mongodb.net/task-manager
-// MONGO:{
-//     HOST:'127.0.0.1',
-//     PORT:'27017',
-//     DB:'task-manager'
-// }
